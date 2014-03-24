@@ -7,22 +7,30 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1138.51">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times}
-    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times}
-    span.s1 {text-decoration: underline ; color: #0000ee}
-    ul.ul1 {list-style-type: disc}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Consolas; color: #333233}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Consolas; color: #333233; min-height: 14.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Consolas; color: #dd1044}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Consolas; color: #1c0080}
+    span.s1 {color: #1c0080}
+    span.s2 {color: #333233}
+    span.s3 {color: #00807f}
+    span.s4 {color: #800081}
+    span.s5 {color: #dd1044}
   </style>
 </head>
 <body>
-<p class="p1">---<span class="Apple-converted-space"> </span></p>
-<p class="p1">layout: default<span class="Apple-converted-space"> </span></p>
-<p class="p1">title: Matthew W. Priddy</p>
 <p class="p1">---</p>
-<h1 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 24.0px Times"><b>Blog Posts</b></h1>
-<ul class="ul1">
-  <li class="li1">{% for post in site.posts %}</li>
-  <li class="li1">{{ post.date | date_to_string }} » <a href="file:///Users/mwp40/Dropbox/mwpriddy.github.io/%7B%7B%20post.url%20%7D%7D"><span class="s1">{{ post.title }}</span></a></li>
-  <li class="li1">{% endfor %}</li>
-</ul>
+<p class="p1">layout: default</p>
+<p class="p1">title: Your New Jekyll Site</p>
+<p class="p1">---</p>
+<p class="p2"><br></p>
+<p class="p3"><span class="s1">&lt;div</span><span class="s2"> </span><span class="s3">id=</span>"home"<span class="s1">&gt;</span></p>
+<p class="p1">  <span class="s1">&lt;h1&gt;</span>Blog Posts<span class="s1">&lt;/h1&gt;</span></p>
+<p class="p3"><span class="s2">  </span><span class="s1">&lt;ul</span><span class="s2"> </span><span class="s3">class=</span>"posts"<span class="s1">&gt;</span></p>
+<p class="p1">    {% for post in site.posts %}</p>
+<p class="p1">      <span class="s1">&lt;li&gt;&lt;span&gt;</span>{{ post.date | date_to_string }}<span class="s1">&lt;/span&gt;</span> <span class="s4">&amp;raquo;</span> <span class="s1">&lt;a</span> <span class="s3">href=</span><span class="s5">"{{ post.url }}"</span><span class="s1">&gt;</span>{{ post.title }}<span class="s1">&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1">    {% endfor %}</p>
+<p class="p4"><span class="s2">  </span>&lt;/ul&gt;</p>
+<p class="p4">&lt;/div&gt;</p>
 </body>
 </html>
