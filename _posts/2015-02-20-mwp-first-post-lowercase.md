@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Matthew Priddy's First Post"
+title: "Matthew Priddys First Post"
 date: 2015-02-20
 ---
 
