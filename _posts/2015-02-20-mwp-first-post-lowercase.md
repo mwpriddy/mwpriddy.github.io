@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Matthew Priddys First Post"
-date: 2015-02-20
 ---
 
 Well. Finally got around to putting this old website together.
