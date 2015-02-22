@@ -1,7 +1,8 @@
 ---
-layout: default-halfslider
+layout: post
 title: "Matthew Priddy's First Post"
 date: 2015-02-21
+author: Matthew W. Priddy
 ---
 
 I am really excited to build a website on github.  I think this should be really useful for integrating all of my research projects with my website.
