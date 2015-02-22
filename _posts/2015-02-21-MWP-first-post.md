@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Matthew Priddy's first post"
+layout: default-halfslider
+title: "Matthew Priddy's First Post"
 date: 2015-02-21
 ---
 
