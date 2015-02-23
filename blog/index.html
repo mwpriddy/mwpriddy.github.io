@@ -11,10 +11,11 @@ title: Blog
   </div>
   {% for post in site.posts %}
     <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
-    <span>{{ post.date | date_to_string }}</span>
-    <span>{{ post.author | date_to_string }}</span>
-    
-    
+    <!-- <span>{{ post.date | date_to_string }}</span> -->
+    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}
+    {% if page.author %} • {{ page.author }}{% endif %}
+    {% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
   {% endfor %}
     
 </ul>
