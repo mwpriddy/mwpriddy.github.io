@@ -12,7 +12,7 @@ title: Blog
   {% for post in site.posts %}
     <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
     <!-- <span>{{ post.date | date_to_string }}</span> -->
-    <p class="meta">{{ post.date | date: "%F %d, %Y" }}
+    <p class="meta">{{ post.date | date: "%bb %d, %Y" }}
     {% if post.author %} • {{ post.author }}{% endif %}
     {% if post.meta %} • {{ post.meta }}{% endif %}</p>
 
