@@ -8,3 +8,4 @@ In terms of recognition for the current formatting, I would like to credit the f
 - [Modern Business from Start Bootstrap](http://startbootstrap.com/template-overviews/modern-business/) for some of the formatting of the main and individual pages.
 - The [Font Awesome](http://fortawesome.github.io/Font-Awesome/) social media icons are used in this site, with a little bit of help from a [bootstrapbay blog post](http://bootstrapbay.com/blog/font-awesome/).
 - This [blog by Justin James](http://digitaldrummerj.me/monthview/) helped to develop my posts page and its organization.
+- [Blog Home from Start Bootstrap](http://startbootstrap.com/template-overviews/blog-home) for some of the posts page formatting.
