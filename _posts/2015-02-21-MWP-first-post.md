@@ -3,7 +3,8 @@ layout: post
 title: "Matthew Priddy's First Post"
 date: 2015-02-21
 author: Matthew W. Priddy
-meta: introduction, 
+meta: introduction
+cover: "https://farm8.staticflickr.com/7006/6507163691_accdd35429_z.jpg"
 description: I just want to check and see what the main blog page does with this information.  I wonder how many lines should be in here and get displayed?
 ---
 
