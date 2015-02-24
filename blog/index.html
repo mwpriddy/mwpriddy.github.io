@@ -15,7 +15,7 @@ title: Blog
     <p class="meta">{{ post.date | date: "%B %d, %Y" }}
     {% if post.author %} • {{ post.author }}{% endif %}
     {% if post.meta %} • {{ post.meta }}{% endif %}</p>
-    <p>{% if post.description %}{{<br> post.description }}{% endif %}</p>
+    <p>{% if post.description %}{{ post.description }}{% endif %}</p>
   {% endfor %}
     
 </ul>
