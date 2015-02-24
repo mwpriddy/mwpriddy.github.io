@@ -15,7 +15,7 @@ title: Blog
     <p class="meta">{{ post.date | date: "%B %d, %Y" }}
     {% if post.author %} • {{ post.author }}{% endif %}
     {% if post.meta %} • {{ post.meta }}{% endif %}</p>
-    {% if post.cover %} <img class="img-responsive" src="http://placehold.it/900x300" alt="" {% endif %}
+    {% if post.cover %} <img class="img-responsive" src={{ post.cover }} alt="" {% endif %}
     <p>{% if post.description %}{{ post.description }}{% endif %}</p>
   {% endfor %}
     
