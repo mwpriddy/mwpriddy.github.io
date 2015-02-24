@@ -14,8 +14,8 @@ title: Blog
     <!-- <span>{{ post.date | date_to_string }}</span> -->
     <p class="meta">{{ post.date | date: "%B %d, %Y" }}
     {% if post.author %} • {{ post.author }}{% endif %}
-    {% if post.meta %} • {{ post.meta }}{% endif %}</p>
-
+    {% if post.meta %} • {{ post.meta }}{% endif %}
+    {% if post.description %}{{<br> post.description }}{% endif %}</p>
   {% endfor %}
     
 </ul>
