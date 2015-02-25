@@ -1,6 +1,7 @@
 html *
 {
-   font-family: "Garamond", serif !important;   /* Override all font declarations to specify font of website
+   font-family: "Garamond", serif;   /* Specify different font-family for entire website */
+   /* font-family: "Garamond", serif !important;   /* Override all font declarations to specify font of website, including font awesome.  Which is, in fact, not awesome */ 
 } 
 
 body {
