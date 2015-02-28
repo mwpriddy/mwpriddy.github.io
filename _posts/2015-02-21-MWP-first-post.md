@@ -4,7 +4,7 @@ title: "Matthew Priddy's First Post"
 date: 2015-02-21
 author: Matthew W. Priddy
 meta: introduction
-cover: "https://farm8.staticflickr.com/7029/6469839877_dfb5ab9b24.jpg"
+cover: "https://www.flickr.com/photos/courtarro/6469839877/sizes/l/"
 ---
 
 I am really excited to build a website on github.  I think this should be really useful for integrating all of my research projects with my website.
