@@ -15,21 +15,8 @@ title: Blog
     <p class="meta">{{ post.date | date: "%B %d, %Y" }}
     {% if post.author %} • {{ post.author }}{% endif %}
     {% if post.meta %} • {{ post.meta }}{% endif %}</p>
-    <!-- {% if post.cover %} <img class="img-responsive" src={{ post.cover }} alt="" {% endif %}  -->
-    <!-- <p>{% if post.content %}{{ post.content | strip_html | truncatewords:55}}{% endif %}</p> -->
-    
-    <!-- Insert this portion of text to maybe steal the carousel classes for picture overlay with text -->
-    <div id="mycarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="item active">
-        <!-- <img src="img/yourimage.png" alt="" class="img-responsive"> -->
-        {% if post.cover %} <img class="img-responsive" src={{ post.cover }} alt="" {% endif %}
-           <div class="carousel-caption">
-           <!-- Insert your text here ! -->
-           {% if post.content %}{{ post.content | strip_html | truncatewords:55}}{% endif %}
-           </div>
-        </div>
-    </div>
+    {% if post.cover %} <img class="img-responsive" src={{ post.cover }} alt="" {% endif %} 
+    <p>{% if post.content %}{{ post.content | strip_html | truncatewords:55}}{% endif %}</p>
   {% endfor %}
     
 </ul>
