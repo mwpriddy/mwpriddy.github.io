@@ -15,8 +15,25 @@ title: Blog
     <p class="meta">{{ post.date | date: "%B %d, %Y" }}
     {% if post.author %} • {{ post.author }}{% endif %}
     {% if post.meta %} • {{ post.meta }}{% endif %}</p>
-    {% if post.cover %} <img class="img-responsive" src={{ post.cover }} alt="" {% endif %} 
+    {% if post.cover %} <img class="img-responsive" src={{ post.cover }} alt=""> {% endif %} 
     <p>{% if post.content %}{{ post.content | strip_html | truncatewords:55}}{% endif %}</p>
+    
+    <!-- Project One -->
+    <div class="row">
+    	<div class="col-md-7">
+        	{% if post.cover %} <a href="#"><img class="img-responsive" src={{ post.cover }} alt=""></a>{% endif %} 
+        </div>
+        <div class="col-md-5">
+        <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+        <h4>Published on <p class="meta">{{ post.date | date: "%B %d, %Y" }} by {{ post.author }}</h4>
+        <p>{{ post.content | strip_html | truncatewords:55}}</p>
+        <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    </div>
+        
+    <hr> <!-- /.row -->
+    
+    
   {% endfor %}
     
 </ul>
