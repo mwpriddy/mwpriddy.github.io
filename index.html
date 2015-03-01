@@ -89,11 +89,13 @@
         <div class="carousel-inner">
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
+                <ul class="posts">
                 {% for post in site.posts offset:0 limit:1 %}
                     <div class="fill" style="background-image:url( {{ post.cover }} );"></div>
                     <div class="carousel-caption">
                         <h2>{{ post.title }}</h2>
                 {% endfor %}
+                </ul>
                 </div>
             </div>
             <div class="item">
