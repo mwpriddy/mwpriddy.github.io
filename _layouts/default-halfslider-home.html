@@ -79,10 +79,10 @@
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item active">
-                {% for post in site.posts offset:0 limit:3 %}
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url( {{ post.cover }} );"></div>
-                <div class="carousel-caption"><h2>{{ post.title }}</h2></div>
+                {% for post in site.posts offset:0 limit:1 %}
+                    <!-- Set the first background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url( {{ post.cover }} );"></div>
+                    <div class="carousel-caption"><h2>{{ post.title }}</h2></div>
                 {% endfor %}
             </div>
             
@@ -101,6 +101,15 @@
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="icon-prev"></span></a>
         <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a>
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Script to Activate the Carousel -->
+        <script>$('.carousel').carousel({interval: 5000 //changes the speed})</script>
 
     </header>
 
@@ -127,15 +136,6 @@
         </footer>
 
     </div>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>$('.carousel').carousel({interval: 5000 //changes the speed})</script>
 
 </body>
 
