@@ -4,7 +4,7 @@ title: 2015 STEM Education Reseach Expo
 date: 2015-02-27
 author: Matthew W. Priddy
 meta: Engineering Education, 
-cover: "http://www.asee.gtorg.gatech.edu/wp-content/uploads/2014/11/cropped-new_ASEE+GT_Logo_small1.jpg"
+cover: "/images/IMAG1336.jpg"
 ---
 
 GT-ASEE hosted our 3rd annual STEM Education Research Expo yesterday and the event was a great success!  We had approximately 30 posters presentations and a total of 60 attendees for the 2-hour poster session.  And, for the first time, we formally invited presenters from other institutions ([Clemson](http://www.clemson.edu/ese/) and [Georgia State University](http://esc.education.gsu.edu)).  We were lucky enough to have 6 presenters from Clemson and 2 from GSU attend the Research Expo, which made the event seem even more legitimate because of the outside presence.   
