@@ -1,12 +1,14 @@
 html *
 {
    font-family: "Garamond", serif;   /* Specify different font-family for entire website */
-   font-size: 24px;                  /* Specify different font-size for entire website */   
+   /* font-size: 24px;                  /* Specify different font-size for entire website */   
    /* font-family: "Garamond", serif !important;   /* Override all font declarations to specify font of website, including font awesome.  Which is, in fact, not awesome */ 
 } 
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-size: 24px;   /* Specify different font-size for body portion of website */
+    line-height: 150%; /* Specify line height (font-size times %) for body portion of website */
 }
 
 /*My attempt at changing the color of the navigation bar*/
