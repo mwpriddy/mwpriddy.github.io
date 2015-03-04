@@ -26,3 +26,20 @@ $$
 
 \left( \begin{array}{ccc} \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \ \vdots & \ddots & \vdots \ \phi(e_n, e_1) & \cdots & \phi(e_n, e_n) \end{array} \right) \left( \begin{array}{c} y_1 \ \vdots \ y_n \end{array} \right) 
 $$
+
+$$
+\begin{pmatrix}
+\sigma_{11} \\ \sigma_{22} \\ \sigma_{33} \\ \sigma_{13} \\ \sigma_{23} \\ \sigma_{12} \\ 
+\end{pmatrix} = 
+\begin{pmatrix}
+  c_{11} & c_{12} & c_{13} & 0 & 0 & 0 \\
+  c_{12} & c_{11} & c_{13} & 0 & 0 & 0 \\
+  c_{13} & c_{13} & c_{33} & 0 & 0 & 0 \\
+  0 & 0 & 0 & c_{44} & 0 & 0 \\
+  0 & 0 & 0 & 0 & c_{44} & 0 \\
+  0 & 0 & 0 & 0 & 0 & c_{66} \\
+\end{pmatrix}
+\begin{pmatrix}
+\epsilon_{11} \\ \epsilon_{22} \\ \epsilon_{33} \\ \gamma_{13} \\ \gamma_{23} \\ \gamma_{12} \\ 
+\end{pmatrix}
+$$
