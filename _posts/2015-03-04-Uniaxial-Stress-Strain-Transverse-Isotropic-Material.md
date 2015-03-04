@@ -13,20 +13,6 @@ While searching the web for a simple display of the necessary equations, I came 
 
 However, their equations are too simplistic to apply for our transversely isotropic material.  Isotropic materials have two independent elastic constants (E and \( \nu \)) and transversely isotropic materials have five independent elastic constants \(( C_{11}, C{33}, C_{44}, C{12}, and C_{13} )\).  So the \( \sigma = E \epsilon \) looks like:
 
-$$  \left( \begin{array}{ccc} 
-\phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \ 
-\vdots & \ddots & \vdots \ 
-\phi(e_n, e_1) & \cdots & \phi(e_n, e_n) 
-\end{array} \right) 
-\left( \begin{array}{c} y_1 \ \vdots \ y_n \end{array} \right) 
-$$
-
-$$ 
-\phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \ (x_1, \ldots, x_n) 
-
-\left( \begin{array}{ccc} \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \ \vdots & \ddots & \vdots \ \phi(e_n, e_1) & \cdots & \phi(e_n, e_n) \end{array} \right) \left( \begin{array}{c} y_1 \ \vdots \ y_n \end{array} \right) 
-$$
-
 $$
 \begin{pmatrix}
 \sigma_{11} \\ \sigma_{22} \\ \sigma_{33} \\ \sigma_{13} \\ \sigma_{23} \\ \sigma_{12} \\ 
@@ -43,3 +29,42 @@ $$
 \epsilon_{11} \\ \epsilon_{22} \\ \epsilon_{33} \\ \gamma_{13} \\ \gamma_{23} \\ \gamma_{12} \\ 
 \end{pmatrix}
 $$
+
+## Three-Dimensional Hooke's Law
+
+The above matrix can be reduced to the following equations for stress
+
+$$
+  \sigma_{11} = c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33}
+  \sigma_{22} = c_{12}\epsilon_{11} + c_{11}\epsilon_{22} + c_{13}\epsilon_{33}
+  \sigma_{33} = c_{13}\epsilon_{11} + c_{13}\epsilon_{22} + c_{33}\epsilon_{33}
+$$
+
+and, if we invert the C matrix, they can also be written for strain
+
+
+
+
+## Uniaxial Stress
+
+If the stress-state is 1D, lets say \( \sigma_{22}=\sigma_{33}=0 \), then from the above equation it can be shown that
+
+$$
+  \sigma_{11} = c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33}
+  \sigma_{22} = c_{12}\epsilon_{11} + c_{11}\epsilon_{22} + c_{13}\epsilon_{33} = 0
+  \sigma_{33} = c_{13}\epsilon_{11} + c_{13}\epsilon_{22} + c_{33}\epsilon_{33} = 0
+$$
+
+
+## Uniaxial Strain
+
+On the other hand, ff the strain is applied such that \( \epsilon_{22}=\epsilon_{33}=0 \), then the stress-state reduces to
+
+$$
+  \sigma_{11} = c_{11}\epsilon_{11}
+  \sigma_{22} = c_{12}\epsilon_{11}
+  \sigma_{33} = c_{13}\epsilon_{11}
+$$
+
+and the 
+
