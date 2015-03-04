@@ -13,5 +13,11 @@ While searching the web for a simple display of the necessary equations, I came 
 
 However, their equations are too simplistic to apply for our transversely isotropic material.  Isotropic materials have two independent elastic constants (E and \( \nu \)) and transversely isotropic materials have five independent elastic constants \(( C_{11}, C{33}, C_{44}, C{12}, and C_{13} )\).  So the \( \sigma = E \epsilon \) looks like:
 
-$$  \left( \begin{array}{ccc} \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \ \vdots & \ddots & \vdots \ \phi(e_n, e_1) & \cdots & \phi(e_n, e_n) \end{array} \right) \left( \begin{array}{c} y_1 \ \vdots \ y_n \end{array} \right) $$
+$$  \left( \begin{array}{ccc} 
+\phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \ 
+\vdots & \ddots & \vdots \ 
+\phi(e_n, e_1) & \cdots & \phi(e_n, e_n) 
+\end{array} \right) 
+\left( \begin{array}{c} y_1 \ \vdots \ y_n \end{array} \right) 
+$$
 
