@@ -23,11 +23,11 @@ body_MWP {
 
 /* My personal circle image definition to make sure they are (a) circles and (b) resize the image */
 .img-circle {
-  object-fit: cover
+  /* object-fit: cover */
   border-radius: 50%;
   height: 300px;
   width: 300px;
-  
+  overflow: hidden;
 }
 
 /*My attempt at changing the color of the navigation bar*/
