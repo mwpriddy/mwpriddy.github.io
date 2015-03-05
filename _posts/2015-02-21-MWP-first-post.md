@@ -38,6 +38,6 @@ Below we are utilizing the FancyBox display feature for images, PDF, etc.  When 
 
 <script>$(document).ready(function() {$('.fancybox').fancybox();});</script>
 
-<a href="/images/Close-up_headshot.jpg" class="img-responsive fancybox" title="MWP Headshot"><img src="/images/Close-up_headshot.jpg" /></a>
+<a href="/images/Close-up_headshot.jpg" class="fancybox img-responsive " title="MWP Headshot"><img src="/images/Close-up_headshot.jpg" /></a>
 
 Future plans...
