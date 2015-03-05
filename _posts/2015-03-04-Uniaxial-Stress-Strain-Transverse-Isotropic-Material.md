@@ -86,10 +86,10 @@ It takes quite a few steps of algebra to solve for each strain component, or you
 
 $$
 \begin{align}
-\sigma_{11} &= \left(\frac{c_{13}^2c_{22} - 2c_{12}c_{13}c_{23} + c_{12}^2c_{33} + c_{23}^2c_{11} - c_{11}c_{22}c_{33}}{\left(c_{23}^2 - c_{22}c_{33}\right)}\right) = \epsilon_{11} \nonumber \\
+\sigma_{11} &= \left(\frac{c_{13}^2c_{22} - 2c_{12}c_{13}c_{23} + c_{12}^2c_{33} + c_{23}^2c_{11} - c_{11}c_{22}c_{33}}{c_{23}^2 - c_{22}c_{33}}\right)\epsilon_{11} \nonumber \\
 
-\sigma_{22} &= \left(\frac{c_{13}^2c_{22} - 2c_{12}c_{13}c_{23} + c_{12}^2c_{33} + c_{23}^2c_{11} - c_{11}c_{22}c_{33}}{(c_{13}^2 - c_{11}c_{33}}\right) = \epsilon_{22} \\
+\sigma_{22} &= \left(\frac{c_{13}^2c_{22} - 2c_{12}c_{13}c_{23} + c_{12}^2c_{33} + c_{23}^2c_{11} - c_{11}c_{22}c_{33}}{c_{13}^2 - c_{11}c_{33}}\right)\epsilon_{22} \\
 
-\sigma_{33} &= \left(\frac{c_{13}^2c_{22} - 2c_{12}c_{13}c_{23} + c_{12}^2c_{33} + c_{23}^2c_{11} - c_{11}c_{22}c_{33}}{(c_{12}^2 - c_{11}c_{22}}\right) = \epsilon_{33} \nonumber
+\sigma_{33} &= \left(\frac{c_{13}^2c_{22} - 2c_{12}c_{13}c_{23} + c_{12}^2c_{33} + c_{23}^2c_{11} - c_{11}c_{22}c_{33}}{c_{12}^2 - c_{11}c_{22}}\right)\epsilon_{33} \nonumber
 \end{align}
 $$
