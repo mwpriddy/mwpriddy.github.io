@@ -4,7 +4,7 @@ title: Uniaxial Stress and Uniaxial Strain for Transversely Isotropic Material
 date: 2015-02-27
 author: Matthew W. Priddy
 meta: Mechanics, 
-cover: "/images/IMAG1336.jpg"
+cover: "/images/TT-5912.jpg"
 ---
 
 Some of the boundary conditions I have recently been using have been uniaxial strain instead of the typical uniaxial stress and there is an obvious difference in the elastic modulus of the material system, which in this case is $$\alpha$$-Ti in Ti-6Al-4V.  
