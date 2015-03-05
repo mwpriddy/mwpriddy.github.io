@@ -24,8 +24,8 @@ body_MWP {
 /* My personal circle image definition to make sure they are (a) circles and (b) resize the image */
 .img-circle {
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
 /*My attempt at changing the color of the navigation bar*/
