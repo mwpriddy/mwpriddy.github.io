@@ -34,4 +34,8 @@ $$
 \end{align*}
 $$
 
-I wonder what else we can do with this?
+Below we are utilizing the FancyBox display feature for images, PDF, etc.  When selecting the image, it should increase in size in a nice "on-top" viewer.
+
+<a href="/images/Close-up_headshot.jpg" class="fancybox" title="MWP Headshot"><img src="/images/Close-up_headshot.jpg" /></a>
+
+Future plans...
