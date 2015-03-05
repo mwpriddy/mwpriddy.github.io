@@ -11,7 +11,7 @@ Some of the boundary conditions I have recently been using have been uniaxial st
 
 While searching the web for a simple display of the necessary equations, I came across [this post](http://csmbrannon.net/2012/08/02/distinction-between-uniaxial-stress-and-uniaxial-strain/) that details the differences uniaxial stress and uniaxial strain for a linear-elastic, isotropic material.  In summary, the "constrained modulus" is higher than the elastic modulus.  
 
-However, their equations are too simplistic to apply for our transversely isotropic material.  Isotropic materials have two independent elastic constants (E and \\( \nu \\)) and transversely isotropic materials have five independent elastic constants \\(( C_{11}, C{33}, C_{44}, C{12}, and C_{13} )\\).  So the \\( \sigma = E \epsilon \\) looks like:
+However, their equations are too simplistic to apply for our transversely isotropic material.  Isotropic materials have two independent elastic constants (E and \\( \nu \\)) and transversely isotropic materials have five independent elastic constants $$( C_{11}, C{33}, C_{44}, C{12}, and C_{13} )$$.  So the \\( \sigma = E \epsilon \\) looks like:
 
 $$
 \begin{pmatrix}
