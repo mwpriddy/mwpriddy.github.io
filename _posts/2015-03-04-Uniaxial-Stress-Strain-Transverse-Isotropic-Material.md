@@ -7,11 +7,11 @@ meta: Mechanics,
 cover: "/images/IMAG1336.jpg"
 ---
 
-Some of the boundary conditions I have recently been using have been uniaxial strain instead of the typical uniaxial stress and there is an obvious difference in the elastic modulus of the material system, which in this case is \\( \alpha \\)-Ti in Ti-6Al-4V.  
+Some of the boundary conditions I have recently been using have been uniaxial strain instead of the typical uniaxial stress and there is an obvious difference in the elastic modulus of the material system, which in this case is $$\alpha$$-Ti in Ti-6Al-4V.  
 
 While searching the web for a simple display of the necessary equations, I came across [this post](http://csmbrannon.net/2012/08/02/distinction-between-uniaxial-stress-and-uniaxial-strain/) that details the differences uniaxial stress and uniaxial strain for a linear-elastic, isotropic material.  In summary, the "constrained modulus" is higher than the elastic modulus.  
 
-However, their equations are too simplistic to apply for our transversely isotropic material.  Isotropic materials have two independent elastic constants (E and \\( \nu \\)) and transversely isotropic materials have five independent elastic constants $$( C_{11}, C{33}, C_{44}, C{12}, and C_{13} )$$.  So the \\( \sigma = E \epsilon \\) looks like:
+However, their equations are too simplistic to apply for our transversely isotropic material.  Isotropic materials have two independent elastic constants (E and $$\nu$$) and transversely isotropic materials have five independent elastic constants ($$C_{11}, C_{33}, C_{44}, C_{12},$$ and $$C_{13}$$).  So the $$\sigma = E \epsilon$$ looks like:
 
 $$
 \begin{pmatrix}
@@ -35,35 +35,32 @@ $$
 The above matrix can be reduced to the following equations for stress
 
 $$
-  \sigma_{11} = c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33}
-  \sigma_{22} = c_{12}\epsilon_{11} + c_{11}\epsilon_{22} + c_{13}\epsilon_{33}
-  \sigma_{33} = c_{13}\epsilon_{11} + c_{13}\epsilon_{22} + c_{33}\epsilon_{33}
+  \sigma_{11} &= c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33} \\
+  \sigma_{22} &= c_{12}\epsilon_{11} + c_{11}\epsilon_{22} + c_{13}\epsilon_{33} \\
+  \sigma_{33} &= c_{13}\epsilon_{11} + c_{13}\epsilon_{22} + c_{33}\epsilon_{33}
 $$
 
 and, if we invert the C matrix, they can also be written for strain
 
-
-
-
 ## Uniaxial Stress
 
-If the stress-state is 1D, lets say \( \sigma_{22}=\sigma_{33}=0 \), then from the above equation it can be shown that
+If the stress-state is 1D, lets say $$\sigma_{22}=\sigma_{33}=0$$, then from the above equation it can be shown that
 
 $$
-  \sigma_{11} = c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33}
-  \sigma_{22} = c_{12}\epsilon_{11} + c_{11}\epsilon_{22} + c_{13}\epsilon_{33} = 0
-  \sigma_{33} = c_{13}\epsilon_{11} + c_{13}\epsilon_{22} + c_{33}\epsilon_{33} = 0
+  \sigma_{11} &= c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33} \\
+  \sigma_{22} &= c_{12}\epsilon_{11} + c_{11}\epsilon_{22} + c_{13}\epsilon_{33} = 0 \\
+  \sigma_{33} &= c_{13}\epsilon_{11} + c_{13}\epsilon_{22} + c_{33}\epsilon_{33} = 0
 $$
 
 
 ## Uniaxial Strain
 
-On the other hand, ff the strain is applied such that \( \epsilon_{22}=\epsilon_{33}=0 \), then the stress-state reduces to
+On the other hand, if the strain is applied such that $$\epsilon_{22}=\epsilon_{33}=0$$, then the stress-state reduces to
 
 $$
-  \sigma_{11} = c_{11}\epsilon_{11}
-  \sigma_{22} = c_{12}\epsilon_{11}
-  \sigma_{33} = c_{13}\epsilon_{11}
+  \sigma_{11} &= c_{11}\epsilon_{11} \\
+  \sigma_{22} &= c_{12}\epsilon_{11} \\
+  \sigma_{33} &= c_{13}\epsilon_{11}
 $$
 
 and the 
