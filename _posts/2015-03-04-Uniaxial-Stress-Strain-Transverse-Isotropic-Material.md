@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Uniaxial Stress and Uniaxial Strain for Transversely Isotropic Material
-date: 2015-02-27
+date: 2015-03-04
 author: Matthew W. Priddy
-meta: Mechanics, 
+meta: Mechanics 
 cover: "/images/TT-5912.jpg"
 ---
 
