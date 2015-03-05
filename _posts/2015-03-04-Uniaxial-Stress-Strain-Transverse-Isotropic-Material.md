@@ -60,9 +60,9 @@ It takes some quite a few steps of algebra to solve for each strain component, o
 
 $$
 \begin{align}
-  \epsilon_{11} &= \frac{-c_{13}^2 + c_{11}c_{33}}{(c_{11}-c_{12})(-2c_{13}^2+(c_{11}+c_{12})c_{33})}\sigma_{11} \nonumber \\
-  \epsilon_{22} &= \frac{ c_{13}^2 - c_{12}c_{33}}{(c_{11}-c_{12})(-2c_{13}^2+(c_{11}+c_{12})c_{33})}\sigma_{11}  \\
-  \epsilon_{33} &= \frac{ c_{13}}{(2c_{13}^2-(c_{11}+c_{12})c_{33})}\sigma_{11} \nonumber
+  \epsilon_{11} &= \frac{-c_{13}^2 + c_{11}c_{33}}{(c_{11}-c_{12})\left(-2c_{13}^2+(c_{11}+c_{12}\right)c_{33})}\sigma_{11} \nonumber \\
+  \epsilon_{22} &= \frac{ c_{13}^2 - c_{12}c_{33}}{(c_{11}-c_{12})\left(-2c_{13}^2+(c_{11}+c_{12})c_{33}\right)}\sigma_{11}  \\
+  \epsilon_{33} &= \frac{ c_{13}}{\left(2c_{13}^2-(c_{11}+c_{12})c_{33}\right)}\sigma_{11} \nonumber
 \end{align}
 $$
 
