@@ -36,8 +36,8 @@ The above matrix can be reduced to the following equations for stress
 
 $$
 \begin{align}
-  \sigma_{11} &= c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33} \\
-  \sigma_{22} &= c_{12}\epsilon_{11} + c_{11}\epsilon_{22} + c_{13}\epsilon_{33} \\
+  \sigma_{11} &= c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33} \nonumber \\
+  \sigma_{22} &= c_{12}\epsilon_{11} + c_{11}\epsilon_{22} + c_{13}\epsilon_{33} \nonumber \\
   \sigma_{33} &= c_{13}\epsilon_{11} + c_{13}\epsilon_{22} + c_{33}\epsilon_{33}
 \end{align}
 $$
@@ -50,8 +50,8 @@ If the stress-state is 1D, lets say $$\sigma_{22}=\sigma_{33}=0$$, then from the
 
 $$
 \begin{align}
-  \sigma_{11} &= c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33} \\
-  \sigma_{22} &= c_{12}\epsilon_{11} + c_{11}\epsilon_{22} + c_{13}\epsilon_{33} = 0 \\
+  \sigma_{11} &= c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33}     \nonumber \\
+  \sigma_{22} &= c_{12}\epsilon_{11} + c_{11}\epsilon_{22} + c_{13}\epsilon_{33} = 0 \nonumber \\
   \sigma_{33} &= c_{13}\epsilon_{11} + c_{13}\epsilon_{22} + c_{33}\epsilon_{33} = 0
 \end{align}
 $$
@@ -63,8 +63,8 @@ On the other hand, if the strain is applied such that $$\epsilon_{22}=\epsilon_{
 
 $$
 \begin{align}
-  \sigma_{11} &= c_{11}\epsilon_{11} \\
-  \sigma_{22} &= c_{12}\epsilon_{11} \\
+  \sigma_{11} &= c_{11}\epsilon_{11} \nonumber \\
+  \sigma_{22} &= c_{12}\epsilon_{11} \nonumber \\
   \sigma_{33} &= c_{13}\epsilon_{11}
 \end{align}
 $$
