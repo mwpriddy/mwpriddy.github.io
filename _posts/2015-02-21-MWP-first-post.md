@@ -42,3 +42,7 @@ Below we are utilizing the FancyBox display feature for images, PDF, etc.  When 
 <img class="img-responsive" src="/images/Close-up_headshot.jpg" /></a>
 
 Future plans...
+
+
+
+*Featured image courtesy of [GT Digital Archive](http://www.comm.gatech.edu/resources/photo-video).
