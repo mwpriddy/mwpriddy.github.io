@@ -115,13 +115,29 @@ $$
 Given the compliance matrix,the elastic modulus for each loading direction is easily determined given uniaxial stress boundary conditions.
 
 $$
+\begin{equation}
 \begin{align}
   \epsilon_{11} &= s_{11}\sigma_{11} \longrightarrow E_{1} = \frac{1}{s_{11}} \nonumber \\
   \epsilon_{22} &= s_{22}\sigma_{22} \longrightarrow E_{2} = \frac{1}{s_{22}} \\
   \epsilon_{33} &= s_{33}\sigma_{33} \longrightarrow E_{3} = \frac{1}{s_{33}} \nonumber
 \end{align}
+\end{equation}
+\label{eqn: ElasticModuli}
 $$
 
 Therefore, after determining the stiffness matrix, a simple matrix inversion can be used to determine the elastic moduli for the three orthogonal loading directions of a 3D specimen.
+
+## Application of Above Solution
+
+Like I stated previously, we have been employing uniaxail strain boundary conditions for some of our linear-elastic simulations recently.  In order to determine the elastic modulus of those 3D polycrystalline digital microstructures, we will employ the method described above.  The digital microstructures are loaded in three orthogonal directions (x-, y-, and z-directions) where the overall strain is known $$\left( \epsilon_{app} \right)$$ for the loading direction and the stress components are known for each element (voxel).  A volume average of the stress components provides the value for each macroscopic normal stress, which can then be used to calculate the individual components of the stiffness matrix.
+
+$$
+\begin{equation}
+\langle \sigma_{kl} \rangle = \displaystyle \sum_{i=1}^{N} \frac{\sigma_{kl}}{N} 
+\end{equation}
+\label{eqn: VolAvg}
+$$
+
+Once the stiffness matrix is determined, invert the stiffness matrix and the elastic moduli are known for each loading direction, per Eqn. \ref{eqn: ElasticModuli}.
 
 *Featured image courtesy of [GT Digital Archive](http://www.comm.gatech.edu/resources/photo-video).
