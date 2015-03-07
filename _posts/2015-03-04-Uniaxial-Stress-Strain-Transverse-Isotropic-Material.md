@@ -93,3 +93,5 @@ $$
 \sigma_{33} &= \left(\frac{c_{13}^2c_{22} - 2c_{12}c_{13}c_{23} + c_{12}^2c_{33} + c_{23}^2c_{11} - c_{11}c_{22}c_{33}}{c_{12}^2 - c_{11}c_{22}}\right)\epsilon_{33} \nonumber
 \end{align}
 $$
+
+*Featured image courtesy of [GT Digital Archive](http://www.comm.gatech.edu/resources/photo-video).
