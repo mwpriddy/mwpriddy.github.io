@@ -82,6 +82,35 @@ $$
 
 Again, a similar procedure can be performed for uniaxial stress loadings in the y- and z-directions, e.g. $$\sigma_{22}=\epsilon_{app}$$ and $$\sigma_{33}=\epsilon_{app}$$.  
 
+We can also define the compliance matrix, which is simply the inverse of the stiffness matrix, as shown below.
+
+$$
+\begin{equation}
+\begin{pmatrix}
+\epsilon_{11} \\ \epsilon_{22} \\ \epsilon_{33} \\ 
+\end{pmatrix} = 
+\begin{pmatrix}
+  s_{11} & s_{12} & s_{13} \\
+  s_{12} & s_{22} & s_{23} \\
+  s_{13} & s_{23} & s_{33} \\
+\end{pmatrix}
+\begin{pmatrix}
+\sigma_{11} \\ \sigma_{22} \\ \sigma_{33} \\ 
+\end{pmatrix}
+\longrightarrow
+\begin{pmatrix}
+  s_{11} & s_{12} & s_{13} \\
+  s_{12} & s_{22} & s_{23} \\
+  s_{13} & s_{23} & s_{33} \\
+\end{pmatrix} =
+\begin{pmatrix}
+  c_{11} & c_{12} & c_{13} \\
+  c_{12} & c_{22} & c_{23} \\
+  c_{13} & c_{23} & c_{33} \\
+\end{pmatrix}^{-1}
+\end{equation}
+$$
+
 It takes quite a few steps of algebra to solve for each strain component, or you can use your favorite mathematic intepretor like Mathematica.  But, this solution is a direct link to Young's modulus in each of the 3 loading directions.  The final equations for the relation between stress and strain in the 3 loading directions:
 
 $$
