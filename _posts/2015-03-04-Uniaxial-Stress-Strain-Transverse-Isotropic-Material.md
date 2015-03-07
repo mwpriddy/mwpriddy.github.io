@@ -61,9 +61,9 @@ If the strain is applied in a uniaxial manner, such that $$\epsilon_{11}=\epsilo
 
 $$
 \begin{align}
-  \sigma_{11} &= c_{11}\epsilon_{11} \nonumber \\
+  \sigma_{11} &= c_{11}\epsilon_{11}  \\
   \sigma_{22} &= c_{12}\epsilon_{11}  \\
-  \sigma_{33} &= c_{13}\epsilon_{11} \nonumber
+  \sigma_{33} &= c_{13}\epsilon_{11} 
 \end{align}
 $$
 
