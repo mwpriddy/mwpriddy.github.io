@@ -34,7 +34,7 @@ $$
 
 ## Three-Dimensional Hooke's Law
 
-For the duration of this post, let us assume that shear stresses/strains are zero.  This will become clear in later sections of this discussion, mainly because were aren't applying any shearing to our deformed volume.  Also, lets assume the material is fully anisotropic, therefore Hooke's law now looks something like
+For the duration of this post, let us assume that shear stresses/strains are zero.  This will become clear in later sections of this discussion, mainly because were aren't applying any shearing to our deformed volume.  Also, lets assume the material is fully anisotropic because that will include any arbitrary crystal orientation of the material.  3D Hooke's law is now:
 
 $$
 \begin{equation}
@@ -53,7 +53,7 @@ $$
 \label{eqn: Hooke3D}
 $$
 
-For general anisotropic elasticity, we can see there are only 6 independent values due to symmetry.  
+From the above equation, we can see there are only 6 independent stiffnes matrix values due to symmetry.  
 
 ## Uniaxial Strain
 
@@ -75,9 +75,9 @@ However, the Young's modulus of the material is recorded from uniaxial stress bo
 
 $$
 \begin{align}
-  \sigma_{11} &= c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33}     \nonumber \\
-  \sigma_{22} &= c_{12}\epsilon_{11} + c_{22}\epsilon_{22} + c_{23}\epsilon_{33} = 0  \\
-  \sigma_{33} &= c_{13}\epsilon_{11} + c_{23}\epsilon_{22} + c_{33}\epsilon_{33} = 0 \nonumber
+  \sigma_{11} &= c_{11}\epsilon_{11} + c_{12}\epsilon_{22} + c_{13}\epsilon_{33} \nonumber \\
+            0 &= c_{12}\epsilon_{11} + c_{22}\epsilon_{22} + c_{23}\epsilon_{33} \\
+            0 &= c_{13}\epsilon_{11} + c_{23}\epsilon_{22} + c_{33}\epsilon_{33} \nonumber
 \end{align}
 $$
 
@@ -116,9 +116,9 @@ Given the compliance matrix,the elastic modulus for each loading direction is ea
 
 $$
 \begin{align}
-  \epsilon_{11} &= s_{11}\sigma_{11} \longrightarrow E_{1} = \frac{1}{s_{11}}
-  \epsilon_{22} &= s_{22}\sigma_{22} \longrightarrow E_{2} = \frac{1}{s_{22}}
-  \epsilon_{33} &= s_{33}\sigma_{33} \longrightarrow E_{3} = \frac{1}{s_{33}}
+  \epsilon_{11} &= s_{11}\sigma_{11} \longrightarrow E_{1} = \frac{1}{s_{11}} \nonumber \\
+  \epsilon_{22} &= s_{22}\sigma_{22} \longrightarrow E_{2} = \frac{1}{s_{22}} \\
+  \epsilon_{33} &= s_{33}\sigma_{33} \longrightarrow E_{3} = \frac{1}{s_{33}} \nonumber
 \end{align}
 $$
 
