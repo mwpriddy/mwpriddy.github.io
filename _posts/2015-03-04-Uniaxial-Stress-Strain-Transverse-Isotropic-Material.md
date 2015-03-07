@@ -60,11 +60,13 @@ From the above equation, we can see there are only 6 independent stiffnes matrix
 If the strain is applied in a uniaxial manner, such that $$\epsilon_{11}=\epsilon_{app}$$ and  $$\epsilon_{22}=\epsilon_{33}=0$$, then the stress-state reduces to
 
 $$
+\begin{equation}
 \begin{align}
   \sigma_{11} &= c_{11}\epsilon_{11}  \\
   \sigma_{22} &= c_{12}\epsilon_{11}  \\
   \sigma_{33} &= c_{13}\epsilon_{11} 
 \end{align}
+\end{equation}
 $$
 
 If we perform similar uniaxial strain deformation (i.e. $$\epsilon_{22}=\epsilon_{app}$$ and $$\epsilon_{33}=\epsilon_{app}$$) that provides us with 9 equations and only 6 unknowns.  Therefore, we have sufficient information to determine the six elastic constants.  
@@ -122,7 +124,7 @@ $$
   \epsilon_{33} &= s_{33}\sigma_{33} \longrightarrow E_{3} = \frac{1}{s_{33}} \nonumber
 \end{align}
 \end{equation}
-\label{eqn: ElasticModuli}
+\label{eqn: ElasticMod}
 $$
 
 Therefore, after determining the stiffness matrix, a simple matrix inversion can be used to determine the elastic moduli for the three orthogonal loading directions of a 3D specimen.
