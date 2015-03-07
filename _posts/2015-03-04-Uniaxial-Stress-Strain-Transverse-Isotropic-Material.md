@@ -11,7 +11,7 @@ Some of the boundary conditions I have recently been using have been uniaxial st
 
 While searching the web for a simple display of the necessary equations, I came across [this post](http://csmbrannon.net/2012/08/02/distinction-between-uniaxial-stress-and-uniaxial-strain/) that details the differences uniaxial stress and uniaxial strain for a linear-elastic, isotropic material.  In summary, the "constrained modulus" is higher than the elastic modulus.  
 
-However, their equations are too simplistic to apply for our transversely isotropic material.  Isotropic materials have two independent elastic constants (E and $$\nu$$) and transversely isotropic materials have five independent elastic constants ($$C_{11}, C_{33}, C_{44}, C_{12},$$ and $$C_{13}$$).  So the $$\sigma = E \epsilon$$ looks like:
+However, their equations are too simplistic to apply for our transversely isotropic material.  Isotropic materials have two independent elastic constants (E and $$\nu$$) and transversely isotropic materials have five independent elastic constants ($$C_{11}, C_{33}, C_{44}, C_{12},$$ and $$C_{13}$$).  So the relationship between stress and strain $$\left(\sigma_{ij} = C_{ijkl} \epsilon_{kl}\right)$$ looks like:
 
 $$
 \begin{equation}
@@ -50,9 +50,10 @@ $$
 \epsilon_{11} \\ \epsilon_{22} \\ \epsilon_{33} \\ 
 \end{pmatrix}
 \end{equation}
+\label{eqn: Hooke3D}
 $$
 
-For general anisotropic elasticity, we can see there are 3 equations and 6 unknowns.  
+For general anisotropic elasticity, we can see there are only 6 independent values due to symmetry.  
 
 ## Uniaxial Strain
 
@@ -66,11 +67,11 @@ $$
 \end{align}
 $$
 
-If we perform similar uniaxial strain deformation (i.e. $$\epsilon_{22}=\epsilon_{app}$$ and $$\epsilon_{33}=\epsilon_{app}$$ that provides us with 9 equations and only 6 unknowns.  Therefore, we have sufficient information to determine the six elastic constants.  
+If we perform similar uniaxial strain deformation (i.e. $$\epsilon_{22}=\epsilon_{app}$$ and $$\epsilon_{33}=\epsilon_{app}$$) that provides us with 9 equations and only 6 unknowns.  Therefore, we have sufficient information to determine the six elastic constants.  
 
 ## Uniaxial Stress
 
-However, the Young's modulus of the material is recorded from uniaxial stress boundary conditions, meaning $$\sigma_{11}=\sigma_{app}$$ and $$\sigma_{22}=\sigma_{33}=0$$.  However, 3D Hooke's law is not a trivial solution for this stress-state, because there are multiple non-zero strain components.
+However, the Young's modulus of the material is recorded from uniaxial stress boundary conditions, meaning $$\sigma_{11}=\sigma_{app}$$ and $$\sigma_{22}=\sigma_{33}=0$$.  But, from Eqn. \ref{eqn: Hooke3D}, Hooke's law is not a trivial solution for this stress-state, because there are multiple non-zero strain components, as shown below.
 
 $$
 \begin{align}
@@ -111,16 +112,16 @@ $$
 \end{equation}
 $$
 
-It takes quite a few steps of algebra to solve for each strain component, or you can use your favorite mathematic intepretor like Mathematica.  But, this solution is a direct link to Young's modulus in each of the 3 loading directions.  The final equations for the relation between stress and strain in the 3 loading directions:
+Given the compliance matrix,the elastic modulus for each loading direction is easily determined given uniaxial stress boundary conditions.
 
 $$
 \begin{align}
-\sigma_{11} &= \left(\frac{c_{13}^2c_{22} - 2c_{12}c_{13}c_{23} + c_{12}^2c_{33} + c_{23}^2c_{11} - c_{11}c_{22}c_{33}}{c_{23}^2 - c_{22}c_{33}}\right)\epsilon_{11} \nonumber \\
-
-\sigma_{22} &= \left(\frac{c_{13}^2c_{22} - 2c_{12}c_{13}c_{23} + c_{12}^2c_{33} + c_{23}^2c_{11} - c_{11}c_{22}c_{33}}{c_{13}^2 - c_{11}c_{33}}\right)\epsilon_{22} \\
-
-\sigma_{33} &= \left(\frac{c_{13}^2c_{22} - 2c_{12}c_{13}c_{23} + c_{12}^2c_{33} + c_{23}^2c_{11} - c_{11}c_{22}c_{33}}{c_{12}^2 - c_{11}c_{22}}\right)\epsilon_{33} \nonumber
+  \epsilon_{11} &= s_{11}\sigma_{11} \longrightarrow E_{1} = \frac{1}{s_{11}}
+  \epsilon_{22} &= s_{22}\sigma_{22} \longrightarrow E_{2} = \frac{1}{s_{22}}
+  \epsilon_{33} &= s_{33}\sigma_{33} \longrightarrow E_{3} = \frac{1}{s_{33}}
 \end{align}
 $$
+
+Therefore, after determining the stiffness matrix, a simple matrix inversion can be used to determine the elastic moduli for the three orthogonal loading directions of a 3D specimen.
 
 *Featured image courtesy of [GT Digital Archive](http://www.comm.gatech.edu/resources/photo-video).
