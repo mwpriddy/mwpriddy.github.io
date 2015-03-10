@@ -4,6 +4,7 @@ title: "Matthew Priddy's First Post"
 date: 2015-02-21
 author: Matthew W. Priddy
 meta: introduction
+comments: True
 cover: "/images/95218-15.jpg"
 ---
 
