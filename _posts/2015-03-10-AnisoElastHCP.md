@@ -32,10 +32,12 @@ But, the change in the elastic modulus can be hard to determine with an arbitrar
 
 I thought it would be a good idea to create a Wolfram Demonstration from the concepts presented in Tromans (2011), following the example created by Dr. Frary, and the result is below; a Wolfram Demonstration GUI that graphically illustrates the elastic modulus versus orientation for all of the 24 different HCP metals.
 
-<script type='text/javascript' src='http://demonstrations.wolfram.com/javascript/embed.js' ></script>
-<script type='text/javascript'>var demoObj = new DEMOEMBED(); demoObj.run('AnisotropicElasticityForHCPCrystalStructures', '', '439', '628');</script>
-<div id='DEMO_AnisotropicElasticityForHCPCrystalStructures'>
-  <a class='demonstrationHyperlink' href='http://demonstrations.wolfram.com/AnisotropicElasticityForHCPCrystalStructures/' target='_blank'>Anisotropic Elasticity for HCP Crystal Structures</a> from the <a class='demonstrationHyperlink' href='http://demonstrations.wolfram.com/' target='_blank'>Wolfram Demonstrations Project</a> by Matthew W. Priddy
-</div><br />
+<div align="center">
+  <script type='text/javascript' src='http://demonstrations.wolfram.com/javascript/embed.js' ></script>
+  <script type='text/javascript'>var demoObj = new DEMOEMBED(); demoObj.run('AnisotropicElasticityForHCPCrystalStructures', '', '439', '628');</script>
+  <div id='DEMO_AnisotropicElasticityForHCPCrystalStructures'>
+    <a class='demonstrationHyperlink' href='http://demonstrations.wolfram.com/AnisotropicElasticityForHCPCrystalStructures/' target='_blank'>Anisotropic Elasticity for HCP Crystal Structures</a> from the <a class='demonstrationHyperlink' href='http://demonstrations.wolfram.com/' target='_blank'>Wolfram Demonstrations Project</a> by Matthew W. Priddy
+  </div><br />
+</div>
 
 The Wolfram Demonstration takes a little more time to code and document, but the result is something that multiple people can utilize and use as a learning tool.  Enjoy! 
