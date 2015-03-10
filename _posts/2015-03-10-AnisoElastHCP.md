@@ -7,7 +7,7 @@ meta: Mechanics
 cover: "http://demonstrations.wolfram.com/AnisotropicElasticityForHCPCrystalStructures/HTMLImages/index.en/popup_1.jpg"
 ---
 
-When I was first learning about Mg and Ti alloys, I was having trouble picturing the anisotropic nature of their respective elastic moduli.  As was shown in a [previous post about uniaxial stress and strain](http://mwpriddy.github.io/blog/2015/03/04/Uniaxial-Stress-Strain-Transverse-Isotropic-Material/), the the stiffness tensor for transversely isotropic materials (e.g. hexagonal close packed material systems) has five independent elastic constants and takes the following form:
+When I was first learning about Mg and Ti alloys, I was having trouble picturing the anisotropic nature of their respective elastic moduli.  As was shown in a [previous post about uniaxial stress and strain](http://mwpriddy.github.io/blog/2015/03/04/UniStressStrain/), the the stiffness tensor for transversely isotropic materials (e.g. hexagonal close packed material systems) has five independent elastic constants and takes the following form:
 
 $$
 \begin{equation}
