@@ -4,6 +4,7 @@ title: 2015 STEM Education Reseach Expo
 date: 2015-02-27
 author: Matthew W. Priddy
 meta: Engineering Education, 
+comments: True
 cover: "/images/IMAG1336.jpg"
 ---
 
