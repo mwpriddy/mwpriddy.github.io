@@ -5,6 +5,7 @@ date: 2015-02-21
 author: Matthew W. Priddy
 meta: introduction
 comments: True
+blurb: True
 cover: "/images/95218-15.jpg"
 ---
 
