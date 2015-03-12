@@ -30,6 +30,15 @@ body_MWP {
   overflow: hidden;
 }
 
+/* My personal circle image for the blurb section in the _includes folder.  I put this at the bottom of blog posts */
+.img-circle-blurb {
+  /* object-fit: cover */
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+
 /*My attempt at changing the color of the navigation bar*/
 /* Official GT colors: http://licensing.gatech.edu/pg/graphic-guidelines */
 /* #C59353 = GT gold */
