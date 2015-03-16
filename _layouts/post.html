@@ -5,10 +5,12 @@ layout: default-halfslider
 <header>
   <h1 class=".page-header">{{ page.title }} <a href="{{site.gh | prepend:"https://github.com/" | append:"/tree/gh-pages/"}}{{page.path}}" >
     <span class="mega-octicon octicon-mark-github" style="cursor:pointer;" title="Markdown Source Code on Github"></span></a></h1>
-  <p class="meta">{{ page.date | date: "%B %-d, %Y" }}
-  {% if page.author %} • {{ page.author }}{% endif %}
-  {% if page.meta %} • {{ page.meta }}{% endif %}
-  {% if page.description %}{{ page.description }}{% endif %}</p>
+  <!-- <p class="meta">{{ page.date | date: "%B %-d, %Y" }}           -->
+  <!-- {% if page.author %} • {{ page.author }}{% endif %}            -->
+  <!-- {% if page.meta %} • {{ page.meta }}{% endif %}                -->
+  <!-- {% if page.description %}{{ page.description }}{% endif %}</p> -->
+  
+    <p class="meta"><i class="fa fa-clock-o"></i> Posted on {{ page.date | date: "%B %-d, %Y" }} by {{ page.author }}</p>
   <hr>
 </header>
 
