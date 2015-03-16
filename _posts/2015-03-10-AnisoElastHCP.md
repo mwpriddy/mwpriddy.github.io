@@ -3,8 +3,9 @@ layout: post
 title: Anisotropic Elasticity for HCP Crystal Structures
 date: 2015-03-10
 author: Matthew W. Priddy
-meta: Mechanics 
+tags: [Mechanics]
 comments: True
+blurb: True
 cover: "http://demonstrations.wolfram.com/AnisotropicElasticityForHCPCrystalStructures/HTMLImages/index.en/popup_1.jpg"
 ---
 
