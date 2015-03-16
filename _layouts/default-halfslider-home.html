@@ -85,7 +85,7 @@
                 {% for post in site.posts offset:0 limit:1 %}
                     <!-- Set the first background image using inline CSS below. -->
                     <div class="fill" style="background-image:url( {{ post.cover }} );"></div>
-                    <div class="carousel-caption"><h2>{{ post.title }}</h2>
+                    <div class="carousel-caption"><h2 href="{{ post.url }}">{{ post.title }}</h2>
                         <p>{{ post.content | strip_html | truncatewords:20}}</p>
                     </div>
                 {% endfor %}
@@ -95,7 +95,7 @@
                 {% for post in site.posts offset:1 limit:1 %}
                     <!-- Set the second background image using inline CSS below. -->
                     <div class="fill" style="background-image:url( {{ post.cover }} );"></div>
-                    <div class="carousel-caption"><h2>{{ post.title }}</h2>
+                    <div class="carousel-caption"><h2 href="{{ post.url }}">{{ post.title }}</h2>
                         <p>{{ post.content | strip_html | truncatewords:20}}</p>
                     </div>
                 {% endfor %}
@@ -104,7 +104,7 @@
                 {% for post in site.posts offset:2 limit:1 %}
                     <!-- Set the third background image using inline CSS below. -->
                     <div class="fill" style="background-image:url( {{ post.cover }} );"></div>
-                    <div class="carousel-caption"><h2>{{ post.title }}</h2>
+                    <div class="carousel-caption"><h2 href="{{ post.url }}">{{ post.title }}</h2>
                         <p>{{ post.content | strip_html | truncatewords:20}}</p>
                     </div>
                 {% endfor %}
