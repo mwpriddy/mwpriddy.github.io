@@ -47,4 +47,4 @@ Future plans...
 
 
 
-*Featured image courtesy of [GT Digital Archive](http://www.comm.gatech.edu/resources/photo-video).
+<i class="fa fa-camera-retro"></i> Featured image courtesy of [GT Digital Archive](http://www.comm.gatech.edu/resources/photo-video).
