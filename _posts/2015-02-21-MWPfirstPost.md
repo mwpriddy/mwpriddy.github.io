@@ -3,7 +3,7 @@ layout: post
 title: "Matthew Priddy's First Post"
 date: 2015-02-21
 author: Matthew W. Priddy
-meta: introduction
+tags: [how-to]
 comments: True
 blurb: True
 cover: "/images/95218-15.jpg"
