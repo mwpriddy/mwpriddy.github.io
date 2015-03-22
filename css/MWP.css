@@ -30,6 +30,22 @@ body_MWP {
   overflow: hidden;
 }
 
+/* My personal circle image for the blurb section in the _includes folder.  I put this at the bottom of blog posts */
+.img-circle-blurb {
+  /* object-fit: cover */
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+
+/*My changing of the color of the "Read More" buttons to match the GT colors*/
+.btn-primary {
+  color: #fff;
+  background-color: #C59353;
+  border-color: #00254c;
+}
+
 /*My attempt at changing the color of the navigation bar*/
 /* Official GT colors: http://licensing.gatech.edu/pg/graphic-guidelines */
 /* #C59353 = GT gold */

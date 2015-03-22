@@ -3,7 +3,9 @@ layout: post
 title: 2015 STEM Education Reseach Expo 
 date: 2015-02-27
 author: Matthew W. Priddy
-meta: Engineering Education, 
+tags: [Engineering Education]
+comments: True
+blurb: True
 cover: "/images/IMAG1336.jpg"
 ---
 
@@ -18,3 +20,5 @@ Additionally, our event corresponded with a Northrop Grumman (NG) meet-and-greet
 This was my 3rd Research Expo to plan and it seems like 3 is the magic number.  We were extremely happy with the [Klaus Atrium](http://www.cc.gatech.edu/about/facilities/klausevents/atrium).  Even though it is open to multiple floors, the acoustics are really quite good.  The quality of food provided by [Rising Roll](http://www.risingroll.com) was on par with what we were expecting, even though this was our first time to hire them.
 
 This will most likely be my last Research Expo to plan, but I can honestly say I will miss it.  I don't get that many opportunities to interact with researchers outside of my technical focus, so these types of events are always really stimulating.  
+
+<i class="fa fa-camera-retro"></i> Featured image courtesy of [GT-ASEE](http://www.asee.gtorg.gatech.edu).

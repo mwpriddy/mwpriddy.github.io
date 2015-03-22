@@ -86,7 +86,9 @@
                     <!-- Set the first background image using inline CSS below. -->
                     <div class="fill" style="background-image:url( {{ post.cover }} );"></div>
                     <div class="carousel-caption"><h2>{{ post.title }}</h2>
+                    <!-- <div class="carousel-caption"><h2><a href="{{ post.url }}">{{ post.title }}</a></h2> -->
                         <p>{{ post.content | strip_html | truncatewords:20}}</p>
+                        <a class="btn btn-primary" href="{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 {% endfor %}
             </div>
@@ -96,7 +98,9 @@
                     <!-- Set the second background image using inline CSS below. -->
                     <div class="fill" style="background-image:url( {{ post.cover }} );"></div>
                     <div class="carousel-caption"><h2>{{ post.title }}</h2>
+                    <!-- <div class="carousel-caption"><h2><a href="{{ post.url }}">{{ post.title }}</a></h2> -->
                         <p>{{ post.content | strip_html | truncatewords:20}}</p>
+                        <a class="btn btn-primary" href="{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 {% endfor %}
             </div>
@@ -105,7 +109,9 @@
                     <!-- Set the third background image using inline CSS below. -->
                     <div class="fill" style="background-image:url( {{ post.cover }} );"></div>
                     <div class="carousel-caption"><h2>{{ post.title }}</h2>
+                    <!-- <div class="carousel-caption"><h2><a href="{{ post.url }}">{{ post.title }}</a></h2> -->
                         <p>{{ post.content | strip_html | truncatewords:20}}</p>
+                        <a class="btn btn-primary" href="{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 {% endfor %}
             </div>
@@ -141,8 +147,8 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                <span style="float: left;">Copyright &copy; Matthew Priddy</span>
-                <span style="float: right;">Credits: Landing Page is a free to use, open source Bootstrap theme created by  <a target="_blank" href="http://startbootstrap.com">Start Bootstrap</a>.</span>
+                    <span style="float: left;">Copyright &copy; Matthew W. Priddy</span>
+                    <span style="float: right;">Credits: Website sources from various themes created by  <a target="_blank" href="http://startbootstrap.com">Start Bootstrap</a> and hosted by <a target="_blank" href="http://github.com">GitHub</a>.</span>
                 </div>
             </div>
             <!-- /.row -->
