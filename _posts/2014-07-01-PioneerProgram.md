@@ -6,7 +6,7 @@ author: Matthew W. Priddy
 tags: [Engineering Education]
 comments: True
 blurb: True
-cover: "/images/FacilitateChangeTable.tiff"
+cover: "/images/FacilitateChangeTable.jpg"
 ---
 
 In December 2013, GT-ASEE forwarded a call for applications for an NSF-funded project, [Engineering Education Pioneers and Trajectories of Impact](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1263512), that was interviewing pioneers (e.g. early leaders) of the engineering education community.  The program leaders were looking for participants that could perform the interviews and aid in analyzing the data.  At this point, I was starting to get interested in 'how' engineering education research was performed, so I filled out the application and was lucky enough to be one of the 32 graduate students selected to be a Pioner Interviewer. 
