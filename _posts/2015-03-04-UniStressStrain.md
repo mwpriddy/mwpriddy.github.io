@@ -117,13 +117,11 @@ $$
 Given the compliance matrix,the elastic modulus for each loading direction is easily determined given uniaxial stress boundary conditions.
 
 $$
-\begin{equation}
 \begin{align}
   \epsilon_{11} &= s_{11}\sigma_{11} \longrightarrow E_{1} = \frac{1}{s_{11}} \nonumber \\
   \epsilon_{22} &= s_{22}\sigma_{22} \longrightarrow E_{2} = \frac{1}{s_{22}} \\
   \epsilon_{33} &= s_{33}\sigma_{33} \longrightarrow E_{3} = \frac{1}{s_{33}} \nonumber
 \end{align}
-\end{equation}
 \label{eqn: ElasticMod}
 $$
 
