@@ -122,7 +122,7 @@ $$
   \epsilon_{22} &= s_{22}\sigma_{22} \longrightarrow E_{2} = \frac{1}{s_{22}} \\
   \epsilon_{33} &= s_{33}\sigma_{33} \longrightarrow E_{3} = \frac{1}{s_{33}} \nonumber
 \end{align}
-\label{eqn: ElasticMod}
+\label{eqn: ElasticModuli}
 $$
 
 Therefore, after determining the stiffness matrix, a simple matrix inversion can be used to determine the elastic moduli for the three orthogonal loading directions of a 3D specimen.
