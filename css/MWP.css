@@ -42,26 +42,32 @@ body_MWP {
 /*My changing of the color of the "Read More" buttons to match the GT colors*/
 .btn-primary {
   color: #fff;
-  background-color: #C59353;
-  border-color: #00254c;
+  background-color: #CCCCCC;
+  border-color: #660000;
 }
 
 /*My attempt at changing the color of the navigation bar*/
 /* Official GT colors: http://licensing.gatech.edu/pg/graphic-guidelines */
-/* #C59353 = GT gold */
-/* #00254c = GT navy */
+/* #C59353 = GT gold (used previously as a background-color) */
+/* #00254c = GT navy (used previously as a border-color*/
 /* #EEB211 = GT yellow */
 
+/* Official MSU colors: http://www.opa.msstate.edu/identity/assets/msstate_colors.pdf */
+/* #660000 = MSU Maroon */
+/* #ffffff = White */
+/* #CCCCCC = MSU Light Gray */
+/* #777777 = MSU Dark Gray */
+
 /* navbar */
-.navbar-default {background-color: #C59353; border-color: #C59353;}
+.navbar-default {background-color: #CCCCCC; border-color: #660000;}
 
 /* title */
-.navbar-default .navbar-brand {color: #00254c;}
+.navbar-default .navbar-brand {color: #660000;}
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {color: #5E5E5E;}
 
 /* link */
-.navbar-default .navbar-nav > li > a {color: #00254c;}
+.navbar-default .navbar-nav > li > a {color: #660000;}
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {color: #333;}
 .navbar-default .navbar-nav > .active > a, 
