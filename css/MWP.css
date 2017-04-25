@@ -42,8 +42,8 @@ body_MWP {
 /*My changing of the color of the "Read More" buttons to match the GT colors*/
 .btn-primary {
   color: #fff;
-  background-color: #CCCCCC;
-  border-color: #660000;
+  background-color: #660000;
+  border-color: #CCCCCC;
 }
 
 /*My attempt at changing the color of the navigation bar*/
@@ -59,7 +59,7 @@ body_MWP {
 /* #777777 = MSU Dark Gray */
 
 /* navbar */
-.navbar-default {background-color: #CCCCCC; border-color: #660000;}
+.navbar-default {background-color: #660000; border-color: #CCCCCC;}
 
 /* title */
 .navbar-default .navbar-brand {color: #660000;}
