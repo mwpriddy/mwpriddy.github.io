@@ -62,12 +62,12 @@ body_MWP {
 .navbar-default {background-color: #660000; border-color: #CCCCCC;}
 
 /* title */
-.navbar-default .navbar-brand {color: #660000;}
+.navbar-default .navbar-brand {color: #CCCCCC;}
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {color: #5E5E5E;}
 
 /* link */
-.navbar-default .navbar-nav > li > a {color: #660000;}
+.navbar-default .navbar-nav > li > a {color: #CCCCCC;}
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {color: #333;}
 .navbar-default .navbar-nav > .active > a, 
