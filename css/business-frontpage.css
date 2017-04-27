@@ -12,6 +12,7 @@ body {
 
 .business-header {
     height: 400px;
+    width: 1200px;
     background: url('http://placehold.it/1200x400') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
